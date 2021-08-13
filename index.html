@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Honda CBR | Bootstrap</title>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/fa5cbb6a28.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap css CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header id="header">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid justify-content-end">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars text-light"></i>
+                  </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item p-0 p-lg-3">
+                            <a class="nav-link text-light" href="#">Home</a>
+                        </li>
+                        <li class="nav-item p-0 p-lg-3">
+                            <a class="nav-link text-light" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item p-0 p-lg-3">
+                            <a class="nav-link text-light" href="#">News</a>
+                        </li>
+                        <li class="nav-item p-0 p-lg-3">
+                            <a class="nav-link text-light" href="#">Contact</a>
+                        </li>
+                        </ul>
+                        <div class="d-flex ml-0 ml-lg-4">
+                            <button class="btn btn-info text-light btn-lg">Login</button>
+                        </div>
+                    </div>
+                 </div>
+              </nav>
+        </section>
+        <section class="container d-flex flex-column flex-md-row text-light align-items-center py-5">
+            <div class="w-md-50 w-100">
+                <p>Computer-controlled digital transistorized with electronic advance</p>
+                <h1>Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button type="button" class="btn btn-info text-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                  </button>
+            </div>
+            <!-- Modal button start -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-dark" id="exampleModalLabel">Want to Purchase This Bike?</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="mt-2">
+                          <label class="text-dark" for="name">Enter Your Mobile Number:</label>
+                          <input class="form-control" type="text" id="name">
+                      </div>
+                      <div class="mt-3">
+                          <label class="text-dark" for="message">Your Name and Address:</label>
+                          <textarea class="form-control" id="message"></textarea>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-warning">Purchase Confirm!</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Modal button end -->
+            <div class="w-md-50 w-100">
+                <img class="img-fluid" src="images/header-bike-min.png" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- Header Section end -->
+    <!-- Feture Bike section start -->
+    <section class="container">
+        <div class="text-center py-4">
+            <h1 class="fw-bold">Fetured Bikes 2021</h1>
+            <p class="color-orange for-hyphen">Best bike collection</p>
+        </div>
+        <div class="py-5">
+            <div class="row g-5">
+                <div class="col-md-4 px-5">
+                    <img class="img-fluid" src="images/feature-bike-min.jpg" alt="">
+                </div>
+                <div class="col-md-4 px-5">
+                    <img class="img-fluid" src="images/feature-bike-min.jpg" alt="">
+                </div>
+                <div class="col-md-4 px-5">
+                    <img class="img-fluid" src="images/feature-bike-min.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feture Bike section end -->
+    <!-- Latest News section start -->
+    <section class="container">
+        <div class="text-center mt-3">
+            <h1 class="fw-bold">Latest News</h1>
+        </div>
+        <div class="row g-md-5 gy-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top p-3" src="images/bike-1-min.png" alt="">
+                    <div class="card-body">
+                        <h3>Ducati XDIAVEL S-73</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <a class="btn btn-outline-info" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top p-3" src="images/bike-2-min.png" alt="">
+                    <div class="card-body">
+                        <h3>Motorcycles & Scooters</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <a class="btn btn-outline-info" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top p-3" src="images/bike-3-min.png" alt="">
+                    <div class="card-body">
+                        <h3>2021 Honda CBR500R</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <a class="btn btn-outline-info" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest News section end -->
+    <!-- Review section start -->
+    <section class="container my-3">
+        <div class="text-center mt-5">
+            <h1 class="fw-bold">Happy <span class="color-orange">Clients says</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card d-flex align-items-center flex-column py-4 pb-5">
+                    <img class="rounded-circle my-4" width="150px" height="150px" src="images/user-1-min.png" alt="">
+                    <p class="lead px-4 text-center">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <div>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="far fa-star star-color"></i>
+                    </div>
+                    <a class="text-decoration-none fw-bold py-3" href="#">Regina Miles</a>
+                    <h5>Banker</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-flex align-items-center flex-column py-4 pb-5">
+                    <img class="rounded-circle my-4" width="150px" height="150px" src="images/user-2-min.png" alt="">
+                    <p class="lead px-4 text-center">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <div>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star-half-alt star-color"></i>
+                        <i class="far fa-star star-color"></i>
+                    </div>
+                    <a class="text-decoration-none fw-bold py-3" href="#">Nancy mia</a>
+                    <h5>Sports Girl</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-flex align-items-center flex-column py-4 pb-5">
+                    <img class="rounded-circle my-4" width="150px" height="150px" src="images/user-3-min.jpg" alt="">
+                    <p class="lead px-4 text-center">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    <div>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star star-color"></i>
+                        <i class="fas fa-star-half-alt star-color"></i>
+                    </div>
+                    <a class="text-decoration-none fw-bold py-3" href="#">Julia leo</a>
+                    <h5>Rider</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review section end -->
+    <!-- Question section start -->
+    <section class="container">
+        <div class="text-center my-5">
+            <h1 class="fw-bold">Frequently Asked <span class="color-orange">Questions</span></h1>
+        </div>
+        <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="w-md-50 w-100">
+                <img class="img-fluid py-0 py-md-4" src="images/faq-min.png" alt="">
+            </div>
+            <div class="w-md-50 w-100">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item my-2">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            What are the most important things I should know
+                             about riding a bike?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item my-2">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            How can I tell if my helmet is old and I need a new one?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item my-2">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            My bike has been in storage is it safe to ride?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item my-2">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            What rules should I follow when riding my bike?
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-collapseFour">
+                          <div class="accordion-body">
+                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Question section end -->
+    <!-- Slider section start -->
+    <section class="container">
+        <div class="text-center mt-4 mb-2">
+            <h1 class="fw-bold">CBR-150r <span class="color-orange">2022</span></h1>
+        </div>
+        <div class="d-flex flex-md-row flex-column">
+            <div class="w-100 w-md-50">
+                <div id="carouselExampleIndicators" class="carousel slide px-3 py-2 bg-whit border rounded" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/cbr1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/cbr2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/cbr3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="w-100 w-md-50">
+                <div class="p-3">
+                    <h1>Honda CBR150R</h1>
+                    <h6>Be the first one</h6>
+                    <p class="text-muted">Estimated Price</p>
+                    <h3>$2,500</h3>
+                    <button type="button" class="btn btn-danger my-3">Alert Me When Launched</button>
+                    <p>The On Road Price is not available right now.Set an Alert and we will keep you updated. Expected Launch - Oct, 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider section end -->
+    <!-- Price section start -->
+    <section class="container my-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/cbr-150.jpg" alt="...">
+                    <div class="card-body">
+                        <h3 class="fw-bold">Honda CBR150R 2021 OVERVIEW</h3>
+                        <p class="text-secondary">The 2021 Honda CBR150R has been launched in Indonesia. The updated model comes with a much more aggressive bodywork similar to the Honda CBR250RR. It also gets a more premium Showa SFF-BP inverted front fork and a rear monoshock. Interestingly, apart from providing a more sophisticated damping, the front fork isn’t preload-adjustable like the </p>
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div>
+                                <button type="button" class="btn btn-info"
+                                    data-bs-toggle="popover" title="Price of CBR-150r"
+                                    data-bs-content="$2,600">Click For Price</button>
+                            </div>
+                            <div class="mt-sm-0 mt-2">
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Purchase
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/cbr-300.jpg" alt="...">
+                    <div class="card-body">
+                        <h3 class="fw-bold">HONDA CBR300R 2021 OVERVIEW</h3>
+                        <p class="text-secondary">The Honda CBR300R is a bigger-displacement version of the CBR250R. When Kawasaki debuted the Ninja 300 as a response to the CBR250R, everyone and their uncle upped their displacement game. Along came Yamaha with 320cc and two cylinders, KTM with 373cc and one cylinder, and, recently, Kawasaki, with 400cc and two cylinders.</p>
+                        <div class="d-flex justify-content-between flex-column flex-sm-row">
+                            <div>
+                                <button type="button" class="btn btn-info" data-bs-toggle="popover" title="Price of CBR-300r" data-bs-content="$4,200">Click For Price</button>
+                            </div>
+                            <div class="mt-sm-0 mt-2">
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Purchase
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Price section end -->
+    <!-- Footer section start -->
+    <footer id="footer" class=" py-2 pt-5">
+        <div class="container d-flex justify-content-between flex-column flex-md-row md-align-items-center">
+            <div>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-light" href="#">Download Now</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#">License</a></li>
+                </ul>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex flex-start flex-column mt-5 mt-md-0">
+                <h4 class="ms-2 text-light">Get The App</h4>
+                <a href="#"><img width="150px" src="images/store.png" alt=""></a>
+            </div>
+        </div>
+        <section class="container">
+                <div class="ps-0 ps-md-3 pb-2 text-center text-md-start mt-5 mt-md-0">
+                    <p class="text-muted copy-text-size"> &copy; 2021 bike. All rights reserved</p>
+                </div>
+        </section>
+    </footer>
+    <!-- Footer section end -->
+    <!-- Bootstrap JS CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script>var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+</html>
